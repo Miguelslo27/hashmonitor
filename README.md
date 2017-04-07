@@ -29,16 +29,18 @@ $ npm install --save hashmonitor
 
   function callback(ev) {
     console.log(ev.hashmonitor);
-    console.log(ev.hashmonitor.history);
-    console.log(ev.hashmonitor.isBack);
+    console.log(ev.hashmonitor.history); // Array of hashs history
+    console.log(ev.hashmonitor.isBack);  // Boolean, if user went back (prev hash) it will be true, otherwise false
     console.log(ev.hashmonitor.oldHash); // support for IE allowed
     console.log(ev.hashmonitor.newHash); // support for IE allowed
   }
 
-  // Methods
-
+  // Methods (not implemented until next versions)
+  // from v1.1.0
   hm.next() // Go to the next hash history point
+  // from v1.1.0
   hm.prev() // Go to the prev hash history point
+  // from v1.2.0
   hm.goTo([hash]) // Go to the given hash history point or create a new entry if not exists
   ```
 
