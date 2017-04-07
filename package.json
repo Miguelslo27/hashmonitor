@@ -1,0 +1,30 @@
+{
+  "name": "hashmonitor",
+  "version": "0.1.0",
+  "description": "Powerfull tool to track hash changes, know if user go back or forwared and use methods like goTo, next or prev to navigate in hash history. Also contains a Event handler to onHashChange.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelslo27/hashmonitor.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "hashmonitor",
+    "hashchange",
+    "event",
+    "onhashchange",
+    "hashhistory",
+    "hash",
+    "document.location.hash"
+  ],
+  "author": "Miguel Sosa <miguelmail2006@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miguelslo27/hashmonitor/issues"
+  },
+  "homepage": "https://github.com/Miguelslo27/hashmonitor#readme"
+}
