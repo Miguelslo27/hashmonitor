@@ -13,7 +13,7 @@ $ npm install --save hashmonitor
 - Once you install the package you just have to incluide it
 
   ```
-  let hm = require('hashmonitor');
+  const hm = require('hashmonitor');
   ```
 
   or
