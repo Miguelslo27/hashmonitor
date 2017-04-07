@@ -1,14 +1,14 @@
-#Hash Monitor
+# Hash Monitor
 
 Hash Monitor is a powerfull tool to track hash changes, know if user go back or forwared and use methods like goTo, next or prev to navigate in hash history. Also contains an Event handler to handle onHashChange.
 
-##How to install
+## How to install
 
 ```
 $ npm install --save hashmonitor
 ```
 
-##How to use
+## How to use
 
 - Once you install the package you just have to incluide it
 
